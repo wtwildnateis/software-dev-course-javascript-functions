@@ -68,8 +68,8 @@ function eventCost(numberOfAttendees, costPerAttendees) {
     console.log("Total cost: $" + totalCost);
     return totalCost;
 }
-eventCost(230, 99); // Example of more than 100 attendees with a discount applied
-eventCost(60, 99); // Example of less than 100 attendees without a discount
+eventCost(230, 99); // $20493, Example of more than 100 attendees with a discount applied
+eventCost(60, 99); // $5940, Example of less than 100 attendees without a discount
 
 
 // ============================================
