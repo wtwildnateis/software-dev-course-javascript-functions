@@ -108,5 +108,4 @@ function printNames(names) {
    
    }
 }
-let names = ["Alice", "Bob", "Charlie"];
-printNames(names);
+printNames(["Alice", "Bob", "Charlie"]);
