@@ -63,7 +63,7 @@ attendeeBadge("Alice", "speaker");
 function eventCost(numberOfAttendees, costPerAttendees) {
     let totalCost = numberOfAttendees * costPerAttendees;
     if (numberOfAttendees > 100) {
-        totalCost *= 0.9;
+        totalCost = totalCost - (totalCost * .10)
     }
     console.log("Total cost: $" + totalCost);
     return totalCost;
